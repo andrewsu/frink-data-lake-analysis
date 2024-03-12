@@ -1,3 +1,3 @@
-dream-kg
-scales-kg
-sem-open-alex-kg
+dream-kg	lakefs/dream-kg
+scales-kg/main/scales_cross_sectional/courts.ttl	lakefs/scales-kg
+scales-kg/main/scales_cross_sectional/judge_entities.ttl.ttl	lakefs/scales-kg

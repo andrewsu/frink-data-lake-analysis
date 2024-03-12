@@ -3,9 +3,10 @@
 # Replace input.txt with the path to your text file
 input="kg_list.txt"
 
-while IFS= read -r line
+while IFS=$'\t' read -r remotePath localPath
 do
-  echo $line
-  rclone sync "lakefs://$line" "./lakefs/$line"
+  # Use "$remotePath" for the source and "$localPath" for the destination in the rclone command
+  echo $remotePath
+  rclone sync "lakefs://$remotePath" "$localPath"
 done < "$input"
 
