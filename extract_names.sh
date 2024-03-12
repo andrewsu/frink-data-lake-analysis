@@ -8,3 +8,15 @@ gawk '$2=="<http://schema.org/name>"' lakefs/dream-kg/main/dreamkg-prov.ttl |
 python3 query_wikidata.py output/dream-kg-names.txt > output/dream-kg-names.WD.txt
 
 # scales
+grep 'hasName' lakefs/scales-kg/courts.ttl | 
+	sed '
+	s/.*hasName "/United States /;
+	s/Court,/Court for the/;
+	s/S\./Southern /;
+	s/N\./Northern /;
+	s/E\./Eastern /;
+	s/W\./Western /;
+	s/C\./Central /;
+	s/M\./Middle /;
+	s/D\./District of/;
+	s/" .*//' > output/scales-kg-names.txt

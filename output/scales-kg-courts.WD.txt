@@ -1,0 +1,95 @@
+United States District Court for the District of Alaska	QQ7889765
+United States District Court for the Middle District of Alabama	QQ7889812
+United States District Court for the Northern District of Alabama	QQ7889819
+United States District Court for the Southern District of Alabama	QQ7889833
+United States District Court for the Eastern District of Arkansas	QQ7889797
+United States District Court for the Western District of Arkansas	QQ7889846
+United States District Court for the District of Arizona	QQ7889766
+United States District Court for the Central District of California	QQ7889764
+United States District Court for the Eastern District of California	QQ7889796
+United States District Court for the Northern District of California	QQ7889830
+United States District Court for the Southern District of California	QQ7889834
+United States District Court for the District of Colorado	QQ7889767
+United States District Court for the District of Connecticut	QQ7889770
+United States District Court for the District of Columbia	QQ7889769
+United States District Court for the District of Columbia	QQ69817549
+United States District Court for the District of Delaware	QQ7889771
+United States District Court for the Middle District of Florida	QQ14533147
+United States District Court for the Northern District of Florida	QQ7889821
+United States District Court for the Southern District of Florida	QQ7889836
+United States District Court for the Middle District of Georgia	QQ7889814
+United States District Court for the Northern District of Georgia	QQ7889823
+United States District Court for the Southern District of Georgia	QQ7889835
+United States District Court for the District of Guam	None
+United States District Court for the District of Hawaii	QQ7889777
+United States District Court for the Northern District of Iowa	QQ7889825
+United States District Court for the Southern District of Iowa	QQ7889840
+United States District Court for the District of Idaho	QQ7889772
+United States District Court for the Central District of Illinois	QQ7889763
+United States District Court for the Northern District of Illinois	QQ7889822
+United States District Court for the Southern District of Illinois	QQ7889837
+United States District Court for the Northern District of Indiana	QQ7889824
+United States District Court for the Southern District of Indiana	QQ7889838
+United States District Court for the District of Kansas	QQ7889773
+United States District Court for the Eastern District of Kentucky	QQ7889799
+United States District Court for the Western District of Kentucky	QQ7889847
+United States District Court for the Eastern District of Louisiana.	None
+United States District Court for the Middle District of Louisiana	QQ7889815
+United States District Court for the Western District of Louisiana	QQ7889848
+United States District Court for the District of Massachusetts	QQ7889776
+United States District Court for the District of Maryland	QQ7889775
+United States District Court for the District of Maine	QQ7889774
+United States District Court for the Eastern District of Michigan	QQ7889802
+United States District Court for the Western District of Michigan	QQ7889849
+United States District Court for the District of Minnesota	QQ7889778
+United States District Court for the Eastern District of Missouri	QQ5420320
+United States District Court for the Western District of Missouri	QQ7889850
+United States District Court for the Northern District of Mississippi	QQ7889826
+United States District Court for the Southern District of Mississippi	QQ7889842
+United States District Court for the District of Montana	QQ7889779
+United States District Court for the Eastern District of North Carolina	QQ7889804
+United States District Court for the Middle District of North Carolina	QQ7889816
+United States District Court for the Western District of North Carolina	QQ7889852
+United States District Court for the District of North Dakota	QQ7889785
+United States District Court for the District of Nebraska	QQ7889780
+United States District Court for the District of New Hampshire	QQ7889783
+United States District Court for the District of New Jersey	QQ14550169
+United States District Court for the District of New Mexico	QQ7889784
+United States District Court for the Northern Mariana Islands	None
+United States District Court for the District of Nevada	QQ7889781
+United States District Court for the Eastern District of New York	QQ4215769
+United States District Court for the Northern District of New York	QQ7889827
+United States District Court for the Southern District of New York	QQ49669
+United States District Court for the Western District of New York	QQ7889851
+United States District Court for the Northern District of Ohio	QQ7889829
+United States District Court for the Southern District of Ohio	QQ7889843
+United States District Court for the Eastern District of Oklahoma	QQ7889803
+United States District Court for the Northern District of Oklahoma	QQ7889828
+United States District Court for the Western District of Oklahoma	QQ7889853
+United States District Court for the District of Oregon	QQ7889786
+United States District Court for the Eastern District of Pennsylvania	QQ7889807
+United States District Court for the Middle District of Pennsylvania	QQ7889817
+United States District Court for the Western District of Pennsylvania	QQ7889855
+United States District Court for the District of Puerto Rico	QQ7889788
+United States District Court for the District of Rhode Island	QQ7889790
+United States District Court for the District of South Carolina	QQ7889791
+United States District Court for the District of South Dakota	QQ7889792
+United States District Court for the Eastern District of Tennessee	QQ7889806
+United States District Court for the Middle District of Tennessee	QQ7889818
+United States District Court for the Western District of Tennessee	QQ7889854
+United States District Court for the Eastern District of Texas	QQ7889809
+United States District Court for the Northern District of Texas	QQ7889831
+United States District Court for the Southern District of Texas	QQ7889844
+United States District Court for the Western District of Texas	QQ7889857
+United States District Court for the District of Utah	QQ7889793
+United States District Court for the Eastern District of Virginia	QQ7889808
+United States District Court for the Western District of Virginia	QQ7889858
+United States District Court for the Virgin Islands	None
+United States District Court for the District of Vermont	QQ14552479
+United States District Court for the Eastern District of Washington	QQ7889810
+United States District Court for the Western District of Washington	QQ7889859
+United States District Court for the Eastern District of Wisconsin	QQ7889811
+United States District Court for the Western District of Wisconsin	QQ7889860
+United States District Court for the Northern District of West Virginia	QQ7889832
+United States District Court for the Southern District of West Virginia	QQ7889845
+United States District Court for the District of Wyoming	QQ7889795
