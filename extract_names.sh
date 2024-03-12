@@ -19,4 +19,9 @@ grep 'hasName' lakefs/scales-kg/courts.ttl |
 	s/C\./Central /;
 	s/M\./Middle /;
 	s/D\./District of/;
-	s/" .*//' > output/scales-kg-names.txt
+	s/" .*//' > output/scales-kg-courts.txt
+python3 query_wikidata.py output/scales-kg-courts.txt > output/scales-kg-courts.WD.txt
+
+grep 'hasName' lakefs/scales-kg/judge_entities.ttl | 
+	sed 's/.*hasName "//;s/".*//;s/\([A-Z]\) /\1. /' > output/scales-kg-judges.txt
+python3 query_wikidata.py output/scales-kg-judges.txt > output/scales-kg-judges.WD.txt
