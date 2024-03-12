@@ -25,3 +25,18 @@ python3 query_wikidata.py output/scales-kg-courts.txt > output/scales-kg-courts.
 grep 'hasName' lakefs/scales-kg/judge_entities.ttl | 
 	sed 's/.*hasName "//;s/".*//;s/\([A-Z]\) /\1. /' > output/scales-kg-judges.txt
 python3 query_wikidata.py output/scales-kg-judges.txt > output/scales-kg-judges.WD.txt
+
+
+# Summarize mapping stats
+for file in output/*.WD.txt; do
+    echo $file
+    total_count=`gawkt '{print $1}' $file | sort -u | wc -l`
+    no_mapping=`gawkt '$2=="None"{print $1}' $file | sort -u | wc -l`
+    one_mapping=`gawkt '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1==1' | wc -l`
+    multi_mapping=`gawkt '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1>1' | wc -l`
+    echo -e "Unique entities:\t$total_count"
+    echo -e "No Wikidata mapping:\t$no_mapping"
+    echo -e "One Wikidata mapping:\t$one_mapping"
+    echo -e "Many Wikidata mappings:\t$multi_mapping"
+    echo ""
+done
