@@ -30,10 +30,10 @@ python3 query_wikidata.py output/scales-kg-judges.txt > output/scales-kg-judges.
 # Summarize mapping stats
 for file in output/*.WD.txt; do
     echo $file
-    total_count=`gawkt '{print $1}' $file | sort -u | wc -l`
-    no_mapping=`gawkt '$2=="None"{print $1}' $file | sort -u | wc -l`
-    one_mapping=`gawkt '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1==1' | wc -l`
-    multi_mapping=`gawkt '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1>1' | wc -l`
+    total_count=`awk -F"\t" -v OFS="\t" '{print $1}' $file | sort -u | wc -l`
+    no_mapping=`awk -F"\t" -v OFS="\t" '$2=="None"{print $1}' $file | sort -u | wc -l`
+    one_mapping=`awk -F"\t" -v OFS="\t" '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1==1' | wc -l`
+    multi_mapping=`awk -F"\t" -v OFS="\t" '$2!="None"{print $1}' $file | sort | uniq -c | gawk '$1>1' | wc -l`
     echo -e "Unique entities:\t$total_count"
     echo -e "No Wikidata mapping:\t$no_mapping"
     echo -e "One Wikidata mapping:\t$one_mapping"
